@@ -1,19 +1,23 @@
 {
-  "name": "syunpeiweb",
+  "name": "web",
   "version": "1.0.0",
-  "description": "shunpei's web site",
+  "description": "",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.4",
+    "gulp": "^4.0.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "webpack": "^4.28.2",
+    "webpack-stream": "^5.2.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nghryuki/shunpeiweb.git"
-  },
-  "author": "nghryuki",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nghryuki/shunpeiweb/issues"
-  },
-  "homepage": "https://github.com/nghryuki/shunpeiweb#readme"
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
